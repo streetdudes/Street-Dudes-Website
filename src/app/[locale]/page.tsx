@@ -29,6 +29,10 @@ export default function HomePage({ params: { locale } }: PageProps) {
 
       {/* Hero Presentation Header */}
       <section className="bg-zinc-950/40 border-b border-zinc-900/50 py-20 px-4 text-center flex flex-col justify-center items-center gap-6">
+        <div className="border border-[rgba(245,165,0,0.4)] py-[6px] px-[20px] font-display text-[rgba(245,165,0,0.6)] uppercase tracking-[2px] rounded-full select-none">
+          {t('hero.loveBadge')}
+        </div>
+
         <h1
           className="font-display font-bold text-[#F5A500] tracking-[5px] leading-[0.88] uppercase select-none flex flex-col items-center"
           style={{ fontSize: 'clamp(64px, 10vw, 96px)' }}
