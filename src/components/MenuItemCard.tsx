@@ -45,7 +45,12 @@ export function MenuItemCard({ item }: MenuItemCardProps) {
             </h3>
             {item.badge && <Badge variant={item.badge} label={t(`menu.badges.${item.badge}`)} />}
           </div>
-          <p className="text-sm text-zinc-400 font-body leading-relaxed">{description}</p>
+          <p className="text-sm text-zinc-400 font-body leading-relaxed uppercase tracking-wide">
+            {description
+              .split(',')
+              .map((ingredient) => ingredient.trim())
+              .join(' · ')}
+          </p>
         </div>
         <span className="text-lg font-bold font-display text-[#F5A500] whitespace-nowrap">
           {formatPrice(item.price, priceLabel)}
