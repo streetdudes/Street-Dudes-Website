@@ -14,7 +14,7 @@ const config: Config = {
       },
       fontFamily: {
         display: ['var(--font-bebas-neue)', 'Impact', 'sans-serif'],
-        body:    ['var(--font-archivo)', 'system-ui', 'sans-serif'],
+        body: ['var(--font-archivo)', 'system-ui', 'sans-serif'],
       },
     },
   },
