@@ -44,7 +44,7 @@ export function Navbar() {
             <button
               key={link.id}
               onClick={() => handleScroll(link.id)}
-              className="font-body text-xs font-normal uppercase tracking-widest text-white/55 hover:text-[#F5A500] transition-colors focus:outline-none"
+              className="font-body text-xs font-normal uppercase tracking-widest text-white/55 hover:text-white/90 transition-colors cursor-pointer"
             >
               {link.label}
             </button>

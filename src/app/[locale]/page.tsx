@@ -28,7 +28,7 @@ export default function HomePage({ params: { locale } }: PageProps) {
       <Navbar />
 
       {/* Hero Presentation Header */}
-      <section className="bg-zinc-950/40 border-b border-zinc-900/50 py-20 px-4 text-center flex flex-col justify-center items-center gap-6">
+      <section className="bg-zinc-950/40 border-b border-zinc-900/50 pt-20 pb-8 px-4 text-center flex flex-col justify-center items-center gap-6">
         <h1
           className="font-display font-bold text-[#F5A500] tracking-[5px] leading-[0.88] uppercase select-none flex flex-col items-center"
           style={{ fontSize: 'clamp(64px, 10vw, 96px)' }}

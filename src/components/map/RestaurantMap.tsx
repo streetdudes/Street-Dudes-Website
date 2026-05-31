@@ -55,13 +55,7 @@ export function RestaurantMap() {
     );
   }
 
-  const MAP_URL =
-    `https://www.google.com/maps/embed/v1/place` +
-    `?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY}` +
-    `&q=Streetdudes+Bor%C3%A5s` +
-    `&center=57.7244832,12.9256065` +
-    `&zoom=18` +
-    `&language=sv`;
+  const MAP_URL = `https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY}&q=Streetdudes+Bor%C3%A5s&center=57.7244832,12.9256065&zoom=18&language=sv`;
 
   return (
     <div
