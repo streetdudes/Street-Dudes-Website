@@ -8,7 +8,6 @@ test.describe('Street Dudes - i18n Smoke Test', () => {
 
     // 2. Swedish heading and content checks
     await expect(page.locator('h1').first()).toContainText('STREET DUDES');
-    await expect(page.getByRole('heading', { name: 'Meny', exact: true })).toBeVisible();
 
     // Swedish brand names checks
     await expect(page.locator('h3', { hasText: 'TRUFFLE SMASH' })).toBeVisible();
@@ -21,7 +20,6 @@ test.describe('Street Dudes - i18n Smoke Test', () => {
     await expect(page).toHaveURL(/\/en/);
 
     // 4. English content checks
-    await expect(page.getByRole('heading', { name: 'Menu', exact: true })).toBeVisible();
     await expect(page.locator('h3', { hasText: 'TRUFFLE SMASH' })).toBeVisible();
 
     // Toggle button should now show Swedish option

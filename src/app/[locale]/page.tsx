@@ -53,12 +53,7 @@ export default function HomePage({ params: { locale } }: PageProps) {
       </section>
 
       {/* Main Menu Page Coordinator Layer */}
-      <div className="py-12 flex-grow">
-        <div className="max-w-4xl mx-auto px-4 mb-8">
-          <h2 className="text-3xl font-bold font-display uppercase tracking-wider text-white border-b border-zinc-800 pb-3">
-            {t('menu.title')}
-          </h2>
-        </div>
+      <div className="py-4 flex-grow">
         <MenuPage />
       </div>
 

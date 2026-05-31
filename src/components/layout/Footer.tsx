@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { useTranslations, useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { RestaurantMap } from '../map/RestaurantMap';
 
 /**
@@ -12,9 +12,6 @@ import { RestaurantMap } from '../map/RestaurantMap';
  */
 export function Footer() {
   const t = useTranslations('footer');
-  const locale = useLocale();
-
-  const ratingLabel = locale === 'sv' ? '⭐ 5.0 Google-betyg' : '⭐ 5.0 Google Rating';
 
   return (
     <footer className="w-full bg-[#0b0b0b] border-t border-[#F5A500]/10 py-12 px-6 shadow-2xl mt-auto animate-none">
@@ -77,16 +74,9 @@ export function Footer() {
                 <span className="font-bold text-zinc-300 uppercase tracking-wider text-[10px] font-display">
                   Öppettider / Opening Hours
                 </span>
-                <span className="mt-0.5">{t('openingHours')}</span>
+                <span className="mt-0.5 whitespace-pre-line">{t('openingHours')}</span>
               </div>
             </div>
-          </div>
-
-          {/* ⭐ 5.0 Google Rating Chip */}
-          <div className="flex mt-1">
-            <span className="inline-flex items-center gap-1.5 text-[10px] font-bold font-display uppercase tracking-widest border border-[#F5A500] text-[#F5A500] rounded-lg p-[6px] bg-[#F5A500]/5 select-none">
-              {ratingLabel}
-            </span>
           </div>
         </div>
       </div>

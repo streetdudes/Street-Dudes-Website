@@ -13,8 +13,8 @@ test.describe('Street Dudes - Footer & Maps E2E', () => {
     await expect(footer).toBeVisible();
 
     // 3. Address text is present in SV mode
-    await expect(footer).toContainText('Street Dudes, Borås, Sverige');
-    await expect(footer).toContainText('Mån-Fre: 11:00 - 21:00');
+    await expect(footer).toContainText('Alingsåsvägen 40, 504 38 Borås');
+    await expect(footer).toContainText('Mån–Fre: 11:00–14:30 & 16:00–20:00');
 
     // 4. Map iframe OR placeholder card is rendered (not both, not neither)
     const hasIframeContainer = await page
@@ -32,8 +32,8 @@ test.describe('Street Dudes - Footer & Maps E2E', () => {
     await expect(page).toHaveURL(/\/en/);
 
     // 6. Address text is present in EN mode
-    await expect(footer).toContainText('Street Dudes, Borås, Sweden');
-    await expect(footer).toContainText('Mon-Fri: 11:00 AM - 9:00 PM');
+    await expect(footer).toContainText('Alingsåsvägen 40, 504 38 Borås');
+    await expect(footer).toContainText('Mon–Fri: 11:00am–2:30pm & 4:00pm–8:00pm');
 
     // 7. Verify map XOR assertion holds true in English mode too
     const hasIframeContainerEn = await page
