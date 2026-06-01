@@ -17,14 +17,17 @@ A premium, multi-lingual, type-safe, and fully tested menu display website for t
 ## 2. Getting Started
 
 ### Installation
+
 ```bash
 npm install
 ```
 
 ### Run Local Development Server
+
 ```bash
 npm run dev
 ```
+
 Open [http://localhost:3000](http://localhost:3000) to view the application.
 
 ---
@@ -42,18 +45,19 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 
 ## 4. QUICK REFERENCE CARD
 
-| Need to... | Edit this file |
-| :--- | :--- |
-| Change a price or add a menu item | `src/data/menu.ts` |
-| Change Swedish UI text | `src/i18n/sv.json` |
-| Change English UI text | `src/i18n/en.json` |
-| Change brand colours or fonts | `src/styles/brand.ts` |
-| Change opening hours | `src/i18n/sv.json` + `en.json` |
-| Add a new page | `src/app/[locale]/new-page/` |
-| Add a Phase 2 API endpoint | `src/app/api/your-endpoint/` |
-| Change the map location | `src/components/map/RestaurantMap.tsx` |
+| Need to...                        | Edit this file                         |
+| :-------------------------------- | :------------------------------------- |
+| Change a price or add a menu item | `src/data/menu.ts`                     |
+| Change Swedish UI text            | `src/i18n/sv.json`                     |
+| Change English UI text            | `src/i18n/en.json`                     |
+| Change brand colours or fonts     | `src/styles/brand.ts`                  |
+| Change opening hours              | `src/i18n/sv.json` + `en.json`         |
+| Add a new page                    | `src/app/[locale]/new-page/`           |
+| Add a Phase 2 API endpoint        | `src/app/api/your-endpoint/`           |
+| Change the map location           | `src/components/map/RestaurantMap.tsx` |
 
 ---
 
 ## 5. Development Guidelines
+
 All rules are documented under [AGENTS.md](file:///home/sharafatnoa/My%20Projects/Street%20Dudes%20Website/AGENTS.md). Refer to it for naming conventions, internationalization keys, styling rules, and code quality policies.

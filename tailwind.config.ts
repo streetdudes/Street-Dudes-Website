@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
+        'brand-gold': '#F5A500',
       },
       fontFamily: {
         display: ['var(--font-bebas-neue)', 'Impact', 'sans-serif'],

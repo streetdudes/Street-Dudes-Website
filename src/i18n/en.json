@@ -41,7 +41,7 @@
       }
     },
     "bowls": {
-      "title": "Bowls",
+      "title": "Siders",
       "hogrevBowl": {
         "name": "HÖGREV BOWL",
         "description": "Slow-cooked chuck beef, Texas rice, salad, sauce"
@@ -60,10 +60,6 @@
       "truffleGoldFries": {
         "name": "TRUFFLE GOLD FRIES",
         "description": "Fries with truffle mayo and parmesan"
-      },
-      "garlicButterPasta": {
-        "name": "GARLIC BUTTER PASTA",
-        "description": "Pasta with garlic butter"
       },
       "friedChicken": {
         "name": "FRIED CHICKEN",
@@ -133,6 +129,7 @@
   },
   "footer": {
     "address": "Alingsåsvägen 40, 504 38 Borås",
+    "phone": "0705-937920",
     "openingHours": "Mon–Fri: 11:00am–2:30pm & 4:00pm–8:00pm\nSat–Sun: 12:00pm–8:00pm",
     "mapLink": "View on Google Maps",
     "tagline": "Made with love in Borås."
@@ -142,7 +139,7 @@
     "map": "Map showing restaurant location"
   },
   "metadata": {
-    "title": "Street Dudes Borås — Smash Burgers, Tacos & Bowls",
+    "title": "Street Dudes Borås — Smash Burgers, Tacos & Siders",
     "description": "Street Dudes in Borås serves the best smash burgers, crispy tacos, delicious bowls, and fresh sides in town. View our menu and visit us at Alingsåsvägen!"
   }
 }

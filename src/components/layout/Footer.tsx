@@ -55,6 +55,57 @@ export function Footer() {
               <span>{t('address')}</span>
             </div>
 
+            <div className="flex gap-2.5 items-center">
+              <svg
+                className="w-4 h-4 text-[#F5A500] shrink-0"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M3 5a2 2 0 012-2h2.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.242.923L7.13 8.28a15.147 15.147 0 006.59 6.59l1.414-1.415a1 1 0 01.923-.242l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                />
+              </svg>
+              <a
+                href="tel:+46705937920"
+                className="text-white/60 text-sm hover:text-white/90 
+                            transition-colors"
+              >
+                {t('phone')}
+              </a>
+            </div>
+
+            <div className="flex gap-2.5 items-center">
+              <svg
+                className="w-4 h-4 text-[#F5A500] shrink-0"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
+                />
+              </svg>
+              <a
+                href="https://www.tiktok.com/@streetdudesboras"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Street Dudes på TikTok"
+                className="text-white/60 text-sm hover:text-brand-gold 
+                            transition-colors tracking-wide uppercase"
+              >
+                TikTok ↗
+              </a>
+            </div>
+
             <div className="flex gap-2.5 items-start">
               <svg
                 className="w-4 h-4 text-[#F5A500] shrink-0 mt-0.5"

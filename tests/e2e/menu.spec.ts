@@ -12,7 +12,7 @@ test.describe('Street Dudes - Menu Page E2E', () => {
     const categoryHeadings = [
       'Burgare',
       'Tacos & Burritos',
-      'Skålar',
+      'Siders',
       'Tillbehör',
       'Vegetariskt',
       'Såser',

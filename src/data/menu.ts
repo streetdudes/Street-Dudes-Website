@@ -83,12 +83,6 @@ export const MENU_DATA: MenuData = {
           badge: 'levelup',
         },
         {
-          id: 'garlic-butter-pasta',
-          nameKey: 'menu.sides.garlicButterPasta.name',
-          descriptionKey: 'menu.sides.garlicButterPasta.description',
-          price: 49,
-        },
-        {
           id: 'fried-chicken',
           nameKey: 'menu.sides.friedChicken.name',
           descriptionKey: 'menu.sides.friedChicken.description',
