@@ -41,7 +41,7 @@
       }
     },
     "bowls": {
-      "title": "Siders",
+      "title": "Bowls",
       "hogrevBowl": {
         "name": "HÖGREV BOWL",
         "description": "Slow-cooked chuck beef, Texas rice, salad, sauce"
@@ -139,7 +139,7 @@
     "map": "Map showing restaurant location"
   },
   "metadata": {
-    "title": "Street Dudes Borås — Smash Burgers, Tacos & Siders",
+    "title": "Street Dudes Borås — Smash Burgers, Tacos & Bowls",
     "description": "Street Dudes in Borås serves the best smash burgers, crispy tacos, delicious bowls, and fresh sides in town. View our menu and visit us at Alingsåsvägen!"
   }
 }
