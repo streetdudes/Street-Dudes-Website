@@ -21,11 +21,11 @@
       "title": "Burgare",
       "truffleSmash": {
         "name": "TRUFFLE SMASH",
-        "description": "Tryffelmajonnäs, picklad lök, cheddarost"
+        "description": "Crispsallad · cheddarost · tryffelmajonnäs · picklad lök · rostad lök"
       },
       "cheeseSmash": {
         "name": "CHEESE SMASH",
-        "description": "Cheddarost, senap, ketchup, lök"
+        "description": "Cheddarost · senap · ketchup · lök · picklad gurka"
       }
     },
     "tacosAndBurritos": {
@@ -37,18 +37,18 @@
       },
       "burrito": {
         "name": "BURRITO",
-        "description": "Texas ris, bönor, pico de gallo, valfritt protein"
+        "description": "Texas ris · Högrev · Ost · Lök · Streetdudes Dressing"
       }
     },
     "bowls": {
       "title": "Siders",
       "hogrevBowl": {
         "name": "HÖGREV BOWL",
-        "description": "Långkokt högrev, Texas ris, sallad, sås"
+        "description": "Långkokt högrev · Texas ris · koriander · picklad rödkål · jalapeñomajonnäs · Streetdudes Dressing"
       },
       "kycklingBowl": {
         "name": "KYCKLING BOWL",
-        "description": "Friterad kyckling, Texas ris, sallad, sås"
+        "description": "Friterad kyckling · ris · picklad rödkål · chilimajonnäs · rostad lök"
       }
     },
     "sides": {
@@ -59,7 +59,7 @@
       },
       "truffleGoldFries": {
         "name": "TRUFFLE GOLD FRIES",
-        "description": "Pommes med tryffelmajonnäs och parmesan"
+        "description": "Pommes med tryffelmajonnäs · parmesan · persilja"
       },
       "friedChicken": {
         "name": "FRIED CHICKEN",
@@ -104,7 +104,7 @@
       },
       "extraBurgarpuck": {
         "name": "EXTRA BURGARPUCK",
-        "description": "Extra smashburgare puck 80g"
+        "description": "Extra smashburgare puck 160g"
       },
       "extraRis": {
         "name": "EXTRA RIS",

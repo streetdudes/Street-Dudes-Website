@@ -21,11 +21,11 @@
       "title": "Burgers",
       "truffleSmash": {
         "name": "TRUFFLE SMASH",
-        "description": "Truffle mayo, pickled red onion, cheddar cheese"
+        "description": "Iceberg lettuce · cheddar cheese · truffle mayo · pickled onion · crispy onion"
       },
       "cheeseSmash": {
         "name": "CHEESE SMASH",
-        "description": "Cheddar cheese, mustard, ketchup, onion"
+        "description": "Cheddar cheese · mustard · ketchup · onion · pickled cucumber"
       }
     },
     "tacosAndBurritos": {
@@ -37,18 +37,18 @@
       },
       "burrito": {
         "name": "BURRITO",
-        "description": "Texas rice, beans, pico de gallo, choice of protein"
+        "description": "Texas rice · Beef brisket · Cheese · Onion · Streetdudes Dressing"
       }
     },
     "bowls": {
       "title": "Bowls",
       "hogrevBowl": {
         "name": "HÖGREV BOWL",
-        "description": "Slow-cooked chuck beef, Texas rice, salad, sauce"
+        "description": "Slow-cooked beef brisket · Texas rice · cilantro · pickled red cabbage · jalapeño mayo · Streetdudes Dressing"
       },
       "kycklingBowl": {
         "name": "KYCKLING BOWL",
-        "description": "Fried chicken, Texas rice, salad, sauce"
+        "description": "Fried chicken · rice · pickled red cabbage · chili mayo · crispy onion"
       }
     },
     "sides": {
@@ -59,7 +59,7 @@
       },
       "truffleGoldFries": {
         "name": "TRUFFLE GOLD FRIES",
-        "description": "Fries with truffle mayo and parmesan"
+        "description": "Fries with truffle mayo · parmesan · parsley"
       },
       "friedChicken": {
         "name": "FRIED CHICKEN",
@@ -104,7 +104,7 @@
       },
       "extraBurgarpuck": {
         "name": "EXTRA BURGARPUCK",
-        "description": "Extra smash burger patty 80g"
+        "description": "Extra smash burger patty 160g"
       },
       "extraRis": {
         "name": "EXTRA RIS",
