@@ -21,11 +21,11 @@
       "title": "Burgare",
       "truffleSmash": {
         "name": "TRUFFLE SMASH",
-        "description": "Crispsallad · cheddarost · tryffelmajonnäs · picklad lök · rostad lök"
+        "description": "Crispsallad · cheddarost · tryffelmajonnäs · stekt lök · rostad lök"
       },
       "cheeseSmash": {
         "name": "CHEESE SMASH",
-        "description": "Cheddarost · senap · ketchup · lök · picklad gurka"
+        "description": "Cheddarost · senap · ketchup · lök · picklad gurka · majonnäs"
       }
     },
     "tacosAndBurritos": {
@@ -37,14 +37,14 @@
       },
       "burrito": {
         "name": "BURRITO",
-        "description": "Texas ris · Högrev · Ost · Lök · Streetdudes Dressing"
+        "description": "Signature ris · Högrev · Ost · Lök · Nachocrunch · Streetdudes Dressing"
       }
     },
     "bowls": {
       "title": "Siders",
       "hogrevBowl": {
         "name": "HÖGREV BOWL",
-        "description": "Långkokt högrev · Texas ris · koriander · picklad rödkål · jalapeñomajonnäs · Streetdudes Dressing"
+        "description": "Långkokt högrev · Signature ris · koriander · picklad rödkål · jalapeñomajonnäs · Streetdudes Dressing"
       },
       "kycklingBowl": {
         "name": "KYCKLING BOWL",
@@ -111,8 +111,8 @@
         "description": "Extra vitt ris"
       },
       "extraTexasRis": {
-        "name": "EXTRA TEXAS RIS",
-        "description": "Extra kryddat Texas ris"
+        "name": "EXTRA SIGNATURE RIS",
+        "description": "Extra kryddat Signature ris"
       },
       "extraSas": {
         "name": "EXTRA SÅS",

@@ -21,11 +21,11 @@
       "title": "Burgers",
       "truffleSmash": {
         "name": "TRUFFLE SMASH",
-        "description": "Iceberg lettuce · cheddar cheese · truffle mayo · pickled onion · crispy onion"
+        "description": "Iceberg lettuce · cheddar cheese · truffle mayo · fried onion · crispy onion"
       },
       "cheeseSmash": {
         "name": "CHEESE SMASH",
-        "description": "Cheddar cheese · mustard · ketchup · onion · pickled cucumber"
+        "description": "Cheddar cheese · mustard · ketchup · onion · pickled cucumber · mayo"
       }
     },
     "tacosAndBurritos": {
@@ -37,14 +37,14 @@
       },
       "burrito": {
         "name": "BURRITO",
-        "description": "Texas rice · Beef brisket · Cheese · Onion · Streetdudes Dressing"
+        "description": "Signature rice · Beef brisket · Cheese · Onion · Nacho crunch · Streetdudes Dressing"
       }
     },
     "bowls": {
       "title": "Bowls",
       "hogrevBowl": {
         "name": "HÖGREV BOWL",
-        "description": "Slow-cooked beef brisket · Texas rice · cilantro · pickled red cabbage · jalapeño mayo · Streetdudes Dressing"
+        "description": "Slow-cooked beef brisket · Signature rice · cilantro · pickled red cabbage · jalapeño mayo · Streetdudes Dressing"
       },
       "kycklingBowl": {
         "name": "KYCKLING BOWL",
@@ -111,8 +111,8 @@
         "description": "Extra white rice"
       },
       "extraTexasRis": {
-        "name": "EXTRA TEXAS RIS",
-        "description": "Extra spiced Texas rice"
+        "name": "EXTRA SIGNATURE RICE",
+        "description": "Extra spiced Signature rice"
       },
       "extraSas": {
         "name": "EXTRA SÅS",
